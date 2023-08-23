@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+public/*.srt
+public/*.mp4
+public/*.vtt
 /.pnp
 .pnp.js
 

@@ -1,0 +1,37 @@
+
+.wrapper {
+    /* text-align: center;
+    position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+    position: relative;
+}
+body {
+    background-color: rgb(29, 27, 27);
+}
+/* * {
+    outline: 1px solid red;
+} */
+#video {
+    /* position: absolute; */
+    /* left: 10%; */
+    z-index: 1;
+}
+#subtitles {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    z-index: 2147483647;
+    /* display: block;
+    margin-right: auto;
+    margin-left: auto; */
+    color: rgb(12, 255, 3);
+    cursor: move;
+    background-color: #00000081;
+    border: 0;
+    font-size: large;
+    font-weight: bold;
+    font-family: "HiraKakuPro-W3", "Hiragino Kaku Gothic Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, "ＭＳ Ｐゴシック", "MS PGothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
